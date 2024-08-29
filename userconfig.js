@@ -3,8 +3,8 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
-    scale: "C",
+    location: "Cupertino",
+    scale: "F",
   },
   clock: {
     format: "h:i p",
@@ -68,34 +68,22 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "fox",
+              url: "https://www.foxnews.com",
               icon: "news",
               icon_color: "#a6e3a1",
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "rcp",
+              url: "https://realclearpolling.com",
               icon: "badge-filled",
               icon_color: "#fab387",
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
+              name: "538",
+              url: "https://projects.fivethirtyeight.com/polls/",
               icon: "border-radius",
               icon_color: "#f38ba8",
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: "#89b4fa",
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: "#cba6f7",
             },
           ],
         },
@@ -132,8 +120,8 @@ const default_config = {
           name: "challenges",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com/volodymyrpivoshenko",
+              name: "codeforces",
+              url: "https://codeforces.com/",
               icon: "brain",
               icon_color: "#a6e3a1",
             },
@@ -148,35 +136,6 @@ const default_config = {
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
               icon_color: "#f38ba8",
-            },
-          ],
-        },
-        {
-          name: "blogs",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: "#a6e3a1",
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: "#fab387",
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: "#f38ba8",
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
-              icon_color: "#89b4fa",
             },
           ],
         },
